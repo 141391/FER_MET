@@ -1,0 +1,26 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting mediapipe
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e2/a9/98e0197b24165113ac551aae5646005205f88347fb13ac59a75a9864e1d3/mediapipe-0.10.9-cp310-cp310-win_amd64.whl (50.5 MB)
+Collecting sounddevice>=0.4.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/39/ae/5e84220bfca4256e4ca2a62a174636089ab6ff671b5f9ddd7e8238587acd/sounddevice-0.4.6-py3-none-win_amd64.whl (199 kB)
+Requirement already satisfied: numpy in c:\users\14139\anaconda3\lib\site-packages (from mediapipe) (1.24.3)
+Requirement already satisfied: matplotlib in c:\users\14139\anaconda3\lib\site-packages (from mediapipe) (3.7.1)
+Requirement already satisfied: attrs>=19.1.0 in c:\users\14139\anaconda3\lib\site-packages (from mediapipe) (23.1.0)
+Requirement already satisfied: flatbuffers>=2.0 in c:\users\14139\anaconda3\lib\site-packages (from mediapipe) (2.0)
+Requirement already satisfied: protobuf<4,>=3.11 in c:\users\14139\anaconda3\lib\site-packages (from mediapipe) (3.20.3)
+Collecting opencv-contrib-python
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/aa/2e/576ac47f21d555b459ca837bb3fb937e50339b8fbfd294945ea2f5290416/opencv_contrib_python-4.9.0.80-cp37-abi3-win_amd64.whl (45.3 MB)
+Requirement already satisfied: absl-py in c:\users\14139\anaconda3\lib\site-packages (from mediapipe) (1.3.0)
+Requirement already satisfied: CFFI>=1.0 in c:\users\14139\anaconda3\lib\site-packages (from sounddevice>=0.4.4->mediapipe) (1.15.1)
+Requirement already satisfied: packaging>=20.0 in c:\users\14139\anaconda3\lib\site-packages (from matplotlib->mediapipe) (23.0)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\14139\anaconda3\lib\site-packages (from matplotlib->mediapipe) (1.0.7)
+Requirement already satisfied: cycler>=0.10 in c:\users\14139\anaconda3\lib\site-packages (from matplotlib->mediapipe) (0.11.0)
+Requirement already satisfied: pillow>=6.2.0 in c:\users\14139\anaconda3\lib\site-packages (from matplotlib->mediapipe) (9.4.0)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\14139\anaconda3\lib\site-packages (from matplotlib->mediapipe) (4.39.4)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\users\14139\anaconda3\lib\site-packages (from matplotlib->mediapipe) (3.0.9)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\14139\anaconda3\lib\site-packages (from matplotlib->mediapipe) (2.8.2)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\14139\anaconda3\lib\site-packages (from matplotlib->mediapipe) (1.4.4)
+Requirement already satisfied: pycparser in c:\users\14139\anaconda3\lib\site-packages (from CFFI>=1.0->sounddevice>=0.4.4->mediapipe) (2.21)
+Requirement already satisfied: six>=1.5 in c:\users\14139\anaconda3\lib\site-packages (from python-dateutil>=2.7->matplotlib->mediapipe) (1.16.0)
+Installing collected packages: opencv-contrib-python, sounddevice, mediapipe
+Successfully installed mediapipe-0.10.9 opencv-contrib-python-4.9.0.80 sounddevice-0.4.6
